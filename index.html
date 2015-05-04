@@ -1,0 +1,116 @@
+<!DOCTYPE hml>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Teddy Mitalas Soccer Development</title>
+<link rel="stylesheet" href="boilerplate/css/normalize.css">
+<link rel="stylesheet" href="boilerplate/css/main.css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro|Coda|Open+Sans:400,700' rel='stylesheet' type='text/css'>
+<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+<script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+<script type="text/javascript">
+// Here is the jquery code - you will also need to link to the jquery library as shown above
+$(document).ready(
+    function(){
+        $('#toggleMenu').click(
+            function(){
+				if ( $("nav").is( ":hidden" ) ) {
+					$("nav").show('slide',{direction:'left'},1000);
+				} else {
+                $("nav").hide('slide',{direction:'left'},1000);
+				}
+            });
+    });
+</script>
+</head>
+
+<body>
+<div id="toggleMenu">
+<img src="images/menu_toggle_icon.png" alt="menu toggle icon" />
+</div>
+<main>
+    <header>
+        <a href="index.php"><img src="images/logo.png" alt="Teddy Mitalas Soccer Development Logo" /></a>
+        <div id="contactInfo">
+        23416 39th Pl. W | Brier, WA 98036
+		<p><span>TEDDY</span> | 425-770-1687 | teddymitalas@comcast.net</p>
+        </div>
+        <div id="topLinks"><a href="team_reg.php">Register</a> &nbsp; <a href="login.php">Login</a></div>
+    </header>
+    <nav>
+        <ul id="soccerDevInfo">
+		<li><a href="index.php">HOME</a></li>
+        <li><a href="soccer_complex.php">SOCCER COMPLEX</a></li>
+        <li><a href="fields.php">FIELDS</a></li>
+        <li class="subMenuHeader">CONSULTING OF PROJECTS</li>
+            <li class="subMenu"><ul id="soccerDevSubMenu">
+                    <li><a href="yakima.php">City of Yakima</a></li>
+                    <li><a href="union_gap.php">City of Union Gap</a></li>
+                    <li><a href="starfire.php">Starfire Sports </a></li>
+                    <li><a href="astroturf.php">Astroturf</a></li>
+                    <li><a href="#">Bruce Dees Architect</a></li>
+                </ul>
+            </li>
+        </ul>
+		<div id="cascadiaLogo">
+			<img src="images/cascadia_logotwo.png" width="219" height="197" alt="Cascadia Logo" />
+		</div>
+        <ul id="cascadiaInfo">
+             <li class="subMenuHeader">ADULT TOURNAMENTS</li>
+            <li class="subMenu">
+			<ul class="cascadiaSubMenu">
+                    <li><a href="adult_rules.php">Tournament Rules</a></li>
+                    <li><a href="#">Brackets &amp; Schedule</a></li>
+                    <li><a href="team_reg.php">Team Registration</a></li>
+                    <li><a href="directions.php">Directions</a></li>
+                    <li><a href="sponsors.php">Sponsors</a></li>
+                    <li><a href="#">Divisions</a></li>
+                </ul>
+            </li>
+             <li class="subMenuHeader">YOUTH TOURNAMENTS</li>
+				<li class="subMenu">
+				<ul class="cascadiaSubMenu">
+                    <li><a href="rules.php">Tournament Rules</a></li>
+                    <li><a href="#">Brackets &amp; Schedule</a></li>
+                    <li><a href="team_reg.php">Team Registration</a></li>
+                    <li><a href="directions.php">Directions</a></li>
+                    <li><a href="sponsors.php">Sponsors</a></li>
+                    <li><a href="age_groups.php">Age Group Divisions</a></li>
+                </ul>
+            </li>
+            <li><a href="tournament_director.php">TOURNAMENT DIRECTOR</a></li>
+        </ul>
+    </nav>
+    <section id="content">
+    <h1>Welcome</h1>
+    <article>
+    <p>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</p>
+	<p>
+	Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?
+	</p>
+    </article>
+    </section>
+</main>
+<script src="boilerplate/js/vendor/modernizr-2.6.2.min.js"></script>
+ <script src="boilerplate/js/plugins.js"></script>
+	  <script src="boilerplate/js/main.js"></script>
+	  <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+	  <script>
+          (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+          function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+          e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+          e.src='//www.google-analytics.com/analytics.js';
+          r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+          ga('create','UA-XXXXX-X');ga('send','pageview');
+      </script>
+</body>
+</html>
